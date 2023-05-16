@@ -1,0 +1,206 @@
+*{
+    margin: auto;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: rgb(225, 226, 228);
+}
+header{
+    height: 560px;
+    background-image: url(/Images/Q6al.gif);
+    background-size:contain;
+    clip-path: polygon(0% 100%, 456% -69%,0% 0%);
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    color: rgb(30, 255, 0);
+}
+.logo img{
+    width: 40px;
+    padding-top: 30px;
+    position:relative;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 30px;
+    font-size: large;
+}
+.orange{
+    color: rgb(255, 230, 0);
+}
+.sky{
+    color: aqua;
+}
+.container-heading{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.container-heading h2{
+    color: aquamarine;
+}
+.container-heading h1{
+    color: rgb(30, 209, 150);
+    padding-bottom: 20px;
+}
+.container-5{
+    display: flex;
+    text-align: center;
+    width: auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 100px;
+    background-color: aliceblue;
+    font-size: 1.3rem;
+}
+.container1{
+    border-top: 5px solid blue;
+    color: blue;
+}
+.container2{
+    border-top: 5px solid red;
+    color: red;
+}
+.container3{
+    border-top: 5px solid green;
+    color: green;
+}
+.container4{
+    border-top: 5px solid purple;
+    color: purple;
+}
+.container5{
+    border-top: 5px solid rgb(13, 110, 236);
+    color: rgb(13, 110, 236);
+}
+.container:hover{
+    font-size: 1.4rem;
+    border-top: 6px solid rgb(33, 192, 33);
+    border-bottom: 6px solid rgb(180, 241, 10);
+    border-left: 6px solid rgb(243, 247, 12);
+    border-right: 6px solid rgb(17, 209, 223);
+}
+
+/* --------------- Main Start --------------- */
+
+.text{
+    font-weight: 100;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 4rem;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: blue;
+    color: aqua;
+    border: none;
+    border-radius: 8%;
+    box-shadow: 15px 15px 15px rgb(31, 24, 24);
+    padding-bottom: 5px;
+}
+button:hover{
+    color: rgb(228, 16, 8);
+    box-shadow: 15px 15px 15px rgb(204, 33, 33);
+}
+.Follow{
+    background-color: rgb(231, 229, 227);
+    display: flex;
+    width: auto;
+    height: 80px;
+}
+.r-logo{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid rgb(26, 25, 25);
+}
+.r-logo:hover{
+    border: 5px outset rgb(16, 194, 226);
+    background-color: rgb(41, 235, 193);
+    color: aliceblue;
+}
+.event{
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+.text p{
+    font-size: 1.8rem;
+    color: rgb(40, 207, 62);
+    border-bottom: 5px solid blue;
+    width: 50%;
+    border-radius: 100%;
+}
+.sub-3{
+    height: 150px;
+    padding-top: 50px;
+    display: flex;
+    text-align: center;
+}
+.sub{
+    padding: 10px 10px 10px 10px;
+    height: 250px;
+    width: 410px;
+    word-spacing: 8px;
+    font-size: 1rem;
+    background-color: aqua;
+}
+.r{
+    border-top: 5px solid red;
+}
+.g{
+    border-top: 5px solid rgb(34, 199, 42);
+}
+.b{
+    border-top: 5px solid rgb(11, 103, 223);
+}
+.sub p{
+    padding-top: 15px;
+}
+.tweets{
+    padding-top: 180px;
+    padding-bottom: 140px;
+}
+.sub-2{
+    height: 450px;
+    padding-top: 50px;
+    display: flex;
+    text-align: center;
+}
+.sub-t{
+    width: 50%;
+}
+#Contact{
+    padding-top: 250px;
+    padding-bottom: 140px;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+.btn1{
+    display: flex;
+    padding-right: 50px;
+}
+
+
+/* --------------- Main End --------------- */
